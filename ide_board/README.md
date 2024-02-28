@@ -13,6 +13,15 @@ This directory contains code and instructions on booting an Altair 8800 from an 
 5. Either assemble the IDEBOOT.asm file or use the pre-assembled IDEBOOT.bin or IDEBOOT.hex to either 1. copy to the Altair 8800 using AMON (see video) or 2. program an EPROM with it (see video). If programming an EPROM, use an [EPROM programmer](https://amzn.to/3SVbTI0).
 6. The bootloader assumes that it will run from address F000xH so, if using an EPROM, be sure the configure it to start at that address. Also, ensure that 64K of RAM is available or modify the bootloader to support less RAM.
 
+### CF Drive Flashing
+
+```
+diskutil list ; find the disk path for the CF Drive
+diskutil unmountDisk /dev/disk4
+sudo dd if=/path/to/binaryfile.bin of=/dev/disk4 bs=1m
+```
+
+
 ## Notes
 
 * The bootloader can be improved by running at address 0 so that it's independent of the RAM size. The downsize of doing so is that programs that are booted with it will not be able to start at address 0 (unless the bootloader is moved elsewhere on start).
