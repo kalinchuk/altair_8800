@@ -2,6 +2,8 @@
 
 This directory contains code and instructions on booting an Altair 8800 from an IDE drive. More details can be found on [YouTube](https://www.youtube.com/watch?v=lt8m1Byoukw).
 
+![528EF698-481A-42D2-A0EA-F420E8707A3B_1_201_a](https://github.com/kalinchuk/altair_8800/assets/1035984/264cc08d-063c-4383-a567-435029366e9b)
+
 ## Instructions
 
 1. Purchase and assemble the [Dual IDE V4 board](http://www.s100computers.com/My%20System%20Pages/IDE%20Board/My%20IDE%20Card.htm). You can find the assembly video at https://www.youtube.com/watch?v=-n2ctWLwP5c
