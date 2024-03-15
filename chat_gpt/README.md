@@ -5,11 +5,11 @@ This directory contains code and instructions on running ChatGPT on the Altair 8
 ## Requirements
 
 These instructions assume that you have the following devices available:
-* Altair 8800 capable of running simple programs
-* The [88-2SIOJP](https://deramp.com/2SIOJP.html) serial board.
-* A serial-to-ethernet adapter (I used [USR-TCP232-306](https://amzn.to/3IB4uJh) but you can also use the less expensive [USR-TCP232-302](https://amzn.to/4adqvcR))
+* Altair 8800 capable of running simple programs.
+* A [88-2SIOJP](https://deramp.com/2SIOJP.html) serial board.
+* A serial-to-ethernet adapter (I used [USR-TCP232-306](https://amzn.to/3IB4uJh) but you can also use the less expensive [USR-TCP232-302](https://amzn.to/4adqvcR)).
 * A straight-through serial cable (DB9 to DB25 or a variant of those). Make sure it's not a NULL modem cable as those are cross-over.
-* A machine cable of running [socat](https://www.redhat.com/sysadmin/getting-started-socat). I used a [Raspberry PI 4](https://amzn.to/48SAHGx)
+* A machine cable of running [socat](https://www.redhat.com/sysadmin/getting-started-socat). I used a [Raspberry PI 4](https://amzn.to/48SAHGx).
 * An OpenAI API key. If you go to the [documentation](https://platform.openai.com/docs/overview), you can create a free account from there. You might still be able to get free credits to try it out.
 
 ## Instructions
