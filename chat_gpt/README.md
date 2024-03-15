@@ -21,7 +21,7 @@ These instructions assume that you have the following devices available:
 3. Install dependencies:
 
 ```
-sudo apt-get install libcurl jq wc awk
+sudo apt-get install libcurl jq wc awk socat
 ```
 
 4. Run socat:
