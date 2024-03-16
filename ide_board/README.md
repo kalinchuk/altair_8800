@@ -24,4 +24,4 @@ sudo dd if=/path/to/binaryfile.bin of=/dev/disk4 bs=1m
 
 ## Notes
 
-* The bootloader can be improved by running at address 0 so that it's independent of the RAM size. The downsize of doing so is that programs that are booted with it will not be able to start at address 0 (unless the bootloader is moved elsewhere on start).
+* The bootloader can be improved by running at address 0 so that it's independent of the RAM size. The downside of doing so is that, programs that are booted with it, will not be able to start at address 0 (unless the bootloader is moved elsewhere on start).
